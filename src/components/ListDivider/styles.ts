@@ -5,8 +5,6 @@ export const styles = StyleSheet.create({
   container: {
     height: 1,
     width: '78%',
-    marginVertical: 31,
-    marginTop: 2,
     alignSelf: 'flex-end',
     backgroundColor: theme.colors.secondary40
   }
