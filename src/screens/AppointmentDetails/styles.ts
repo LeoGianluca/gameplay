@@ -1,5 +1,5 @@
 import { StyleSheet } from 'react-native';
-import { getStatusBarHeight } from 'react-native-iphone-x-helper';
+import { getBottomSpace } from 'react-native-iphone-x-helper';
 import { theme } from '../../global/styles/theme';
 
 export const styles = StyleSheet.create({
@@ -13,18 +13,27 @@ export const styles = StyleSheet.create({
   },
   bannerContent: {
     flex: 1,
-    marginBottom: 30,
+    justifyContent: 'flex-end',
     paddingHorizontal: 24,
-    justifyContent: 'flex-end'
+    marginBottom: 30
   },
   title: {
     fontSize: 28,
-    color: theme.colors.heading,
-    fontFamily: theme.fonts.title700
+    fontFamily: theme.fonts.title700,
+    color: theme.colors.heading
   },
   subtitle: {
     fontSize: 13,
-    color: theme.colors.heading,
-    fontFamily: theme.fonts.text400
+    fontFamily: theme.fonts.text400,
+    color: theme.colors.heading
   },
+  members: {
+    marginLeft: 24,
+    marginTop: 27
+  },
+  footer: {
+    paddingHorizontal: 24,
+    paddingVertical: 20,
+    marginBottom: getBottomSpace(),
+  }
 });
