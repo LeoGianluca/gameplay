@@ -30,25 +30,25 @@ export function Guild({data, ...rest}: Props){
       activeOpacity={0.7}
       {...rest}
     >
-        <GuildIcon />
+      <GuildIcon guildId={data.id} iconId={data.icon} />
 
-        <View style={styles.content}>
-          <View>
-            <Text style={styles.title}>
-              {data.name}
-            </Text>
+      <View style={styles.content}>
+        <View>
+          <Text style={styles.title}>
+            {data.name}
+          </Text>
 
-            <Text style={styles.type}>
-              { data.owner ? 'Administrador' : 'Convidado'}
-            </Text>
-          </View>
+          <Text style={styles.type}>
+            { data.owner ? 'Administrador' : 'Convidado'}
+          </Text>
         </View>
+      </View>
 
-        <Feather 
-          name="chevron-right"
-          color={theme.colors.heading}
-          size={24}        
-        />
+      <Feather 
+        name="chevron-right"
+        color={theme.colors.heading}
+        size={24}        
+      />
     </TouchableOpacity>
   );
 }
