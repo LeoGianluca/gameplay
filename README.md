@@ -13,11 +13,8 @@
 ![cover](.github/cover.png?style=flat)
 
 ## 💻 Projeto
-&nbsp;
 
 O aplicativo tem por objetivo conectar e organizar momentos de diversão e jogos com os amigos criando grupos por meio do Discord.
-
-&nbsp;
 
 Obs: Projeto realizado com base nas aulas oferecidas pela [Rocketseat](https://rocketseat.com.br/) no evento Next Level Week Together.
 
@@ -42,7 +39,7 @@ Obs: Projeto realizado com base nas aulas oferecidas pela [Rocketseat](https://r
 &nbsp;
 ## Requisitos de ambiente
 
-Acesse a [Wiki](https://github.com/LeoGianluca/gameplay-react-native.wiki.git) para um guia de instalação no Linux Ubuntu 20.04.2.0 LTS.
+Acesse a [Wiki](https://github.com/LeoGianluca/gameplay-react-native/wiki) para um guia de instalação no Linux Ubuntu 20.04.2.0 LTS.
 
 - Node + NPM;
 - Yarn;
