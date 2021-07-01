@@ -32,11 +32,6 @@ Obs: Projeto realizado com base nas aulas oferecidas pela [Rocketseat](https://r
 - Disponibiliza a função de Logout.
 
 &nbsp;
-## Interface
-
-
-
-&nbsp;
 ## Requisitos de ambiente
 
 Acesse a [Wiki](https://github.com/LeoGianluca/gameplay-react-native/wiki) para um guia de instalação no Linux Ubuntu 20.04.2.0 LTS.
